@@ -111,6 +111,16 @@ export function Home() {
 
     <Program/>
 
+      <motion.p
+        {...anim}
+        className=" mb-20 text-sovorakan relative  text-2xl mt-10"
+      >
+        {txt3}
+        <span className=" absolute w-[200%] -z-1 text-4xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-taki">
+          {txt3}
+        </span>
+      </motion.p>
+
       <motion.div {...anim} className="px-5">
         <Image
           src="/img3.jpg"
