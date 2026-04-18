@@ -16,9 +16,9 @@ export function Home() {
         style={{ backgroundImage: "url('/img1.jpg')" }}
       >
         <div className="flex items-center justify-center">
-          <h2 className="text-[64px] mb-20 text-vrayi">Խաչիկ</h2>
+          <h2 className="text-[64px] mt-20 -mr-10 text-vrayi">Խաչիկ</h2>
           <span className="text-9xl text-taki"> & </span>
-          <h2 className="text-[64px] mt-20 text-vrayi">Վարյա</h2>
+          <h2 className="text-[64px] mb-20 -ml-10 text-vrayi">Վարյա</h2>
         </div>
         <p className="FontSHK_Dzeragir text-[64px] text-vrayi">06/09/2026</p>
       </div>
@@ -126,7 +126,7 @@ export function Home() {
         className=" mb-20 text-sovorakan relative  text-2xl mt-10"
       >
         {txt2}
-        <span className=" absolute w-[200%] -z-1 text-4xl -top-1 left-1/2 -translate-x-1/2 text-taki">
+        <span className=" absolute w-[200%] -z-1 text-4xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-taki">
           {txt2_1}
         </span>
       </motion.p>
